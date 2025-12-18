@@ -6,29 +6,13 @@
 
 
 ### It includes various Python modules:
-```bash
-google-genai
-```
+* [google-genai](https://pypi.org/project/google-genai/)
+* [python-dotenv](https://pypi.org/project/python-dotenv/)
+* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+* [selenium](https://pypi.org/project/selenium/)
+* [webdriver-manager](https://pypi.org/project/webdriver-manager/)
+* [requests](https://pypi.org/project/requests/)
 
-```bash
-python-dotenv
-```
-
-```bash
-beautifulsoup4
-```
-
-```bash
-selenium
-```
-
-```bash
-webdriver-manager
-```
-
-```bash
-requests
-```
 
 ## Getting started
 

@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup
+from aiUsage import AIResponse
 import time
 
 
@@ -45,7 +46,9 @@ def webExtractor(url):
         tag.decompose()
 
     text = soup.get_text(separator = '\n', strip = True)
-    print(text)
+    # print(text)
+    summary = AIResponse.response(text)
+    print(summary)
 
     driver.quit()
 
